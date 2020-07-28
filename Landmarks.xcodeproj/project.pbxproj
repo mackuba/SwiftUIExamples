@@ -57,12 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				8C65939224D06582003EC3DC /* AppDelegate.swift */,
-				8C65939424D06582003EC3DC /* SceneDelegate.swift */,
-				8C65939624D06582003EC3DC /* ContentView.swift */,
 				8C65939824D06584003EC3DC /* Assets.xcassets */,
-				8C65939D24D06584003EC3DC /* LaunchScreen.storyboard */,
+				8C65939624D06582003EC3DC /* ContentView.swift */,
 				8C6593A024D06584003EC3DC /* Info.plist */,
+				8C65939D24D06584003EC3DC /* LaunchScreen.storyboard */,
 				8C65939A24D06584003EC3DC /* Preview Content */,
+				8C65939424D06582003EC3DC /* SceneDelegate.swift */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
