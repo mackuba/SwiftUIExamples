@@ -33,6 +33,8 @@
 		8C6593CC24D08328003EC3DC /* silversalmoncreek.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C6593C024D08328003EC3DC /* silversalmoncreek.jpg */; };
 		8C6593CD24D08328003EC3DC /* rainbowlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C6593C124D08328003EC3DC /* rainbowlake.jpg */; };
 		8C6593CF24D08BCA003EC3DC /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6593CE24D08BCA003EC3DC /* LandmarkList.swift */; };
+		8CAD549824D4AA06003142FD /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD549724D4AA06003142FD /* Badge.swift */; };
+		8CAD549A24D4AA46003142FD /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD549924D4AA46003142FD /* HexagonParameters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +66,8 @@
 		8C6593C024D08328003EC3DC /* silversalmoncreek.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = silversalmoncreek.jpg; sourceTree = "<group>"; };
 		8C6593C124D08328003EC3DC /* rainbowlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rainbowlake.jpg; sourceTree = "<group>"; };
 		8C6593CE24D08BCA003EC3DC /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		8CAD549724D4AA06003142FD /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		8CAD549924D4AA46003142FD /* HexagonParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +125,9 @@
 		8C6593AA24D07F36003EC3DC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8CAD549724D4AA06003142FD /* Badge.swift */,
 				8C6593A624D073F9003EC3DC /* CircleImage.swift */,
+				8CAD549924D4AA46003142FD /* HexagonParameters.swift */,
 				8C65939624D06582003EC3DC /* LandmarkDetail.swift */,
 				8C6593CE24D08BCA003EC3DC /* LandmarkList.swift */,
 				8C6593B324D08173003EC3DC /* LandmarkRow.swift */,
@@ -251,8 +257,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CAD549A24D4AA46003142FD /* HexagonParameters.swift in Sources */,
 				8C6593AF24D07F6C003EC3DC /* Landmark.swift in Sources */,
 				8C65939324D06582003EC3DC /* AppDelegate.swift in Sources */,
+				8CAD549824D4AA06003142FD /* Badge.swift in Sources */,
 				8C6593AE24D07F6C003EC3DC /* Data.swift in Sources */,
 				8C6593A724D073F9003EC3DC /* CircleImage.swift in Sources */,
 				8C6593CF24D08BCA003EC3DC /* LandmarkList.swift in Sources */,
