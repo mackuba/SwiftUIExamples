@@ -36,6 +36,7 @@
 		8CAD549824D4AA06003142FD /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD549724D4AA06003142FD /* Badge.swift */; };
 		8CAD549A24D4AA46003142FD /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD549924D4AA46003142FD /* HexagonParameters.swift */; };
 		8CAD549C24D4B1EB003142FD /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD549B24D4B1EB003142FD /* BadgeBackground.swift */; };
+		8CAD549E24D4B410003142FD /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD549D24D4B410003142FD /* BadgeSymbol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,7 @@
 		8CAD549724D4AA06003142FD /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		8CAD549924D4AA46003142FD /* HexagonParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		8CAD549B24D4B1EB003142FD /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		8CAD549D24D4B410003142FD /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 			children = (
 				8CAD549724D4AA06003142FD /* Badge.swift */,
 				8CAD549B24D4B1EB003142FD /* BadgeBackground.swift */,
+				8CAD549D24D4B410003142FD /* BadgeSymbol.swift */,
 				8C6593A624D073F9003EC3DC /* CircleImage.swift */,
 				8CAD549924D4AA46003142FD /* HexagonParameters.swift */,
 				8C65939624D06582003EC3DC /* LandmarkDetail.swift */,
@@ -267,6 +270,7 @@
 				8C6593AE24D07F6C003EC3DC /* Data.swift in Sources */,
 				8C6593A724D073F9003EC3DC /* CircleImage.swift in Sources */,
 				8C6593CF24D08BCA003EC3DC /* LandmarkList.swift in Sources */,
+				8CAD549E24D4B410003142FD /* BadgeSymbol.swift in Sources */,
 				8C6593A924D07602003EC3DC /* MapView.swift in Sources */,
 				8CAD549C24D4B1EB003142FD /* BadgeBackground.swift in Sources */,
 				8C65939524D06582003EC3DC /* SceneDelegate.swift in Sources */,
