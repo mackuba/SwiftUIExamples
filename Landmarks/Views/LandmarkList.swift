@@ -9,16 +9,16 @@
 import SwiftUI
 
 struct LandmarkList: View {
-    @State var showFavoritesOnly = true
+    @EnvironmentObject var userData: UserData
 
     var body: some View {
         NavigationView {
             List {
-                Toggle(isOn: $showFavoritesOnly) {
+                Toggle(isOn: $userData.showFavoritesOnly) {
                     Text("Favorites Only")
                 }
-                ForEach(landmarkData) { landmark in
-                    if landmark.isFavorite || !self.showFavoritesOnly {
+                ForEach(userData.landmarks) { landmark in
+                    if landmark.isFavorite || !self.userData.showFavoritesOnly {
                         NavigationLink(destination: LandmarkDetail(landmark: landmark)) {
                             LandmarkRow(landmark: landmark)
                         }
@@ -44,5 +44,6 @@ struct LandmarkList_Previews: PreviewProvider {
                 .previewDisplayName("iPhone 8 dark mode")
                 .environment(\.colorScheme, .dark)
         }
+        .environmentObject(UserData())
     }
 }
