@@ -44,7 +44,7 @@ struct BadgeBackground: View {
                 startPoint: UnitPoint(x: 0.5, y: 0),
                 endPoint: UnitPoint(x: 0.5, y: 0.6)
             ))
-                .aspectRatio(1.0, contentMode: .fit)
+            .aspectRatio(1.0, contentMode: .fit)
         }
     }
 
