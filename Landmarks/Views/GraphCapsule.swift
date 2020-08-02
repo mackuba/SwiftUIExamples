@@ -31,6 +31,13 @@ struct GraphCapsule: View {
 
 struct GraphCapsule_Previews: PreviewProvider {
     static var previews: some View {
-        GraphCapsule(index: 0, height: 150, range: 10..<50, overallRange: 0..<100)
+        ZStack {
+            Color.gray
+                .frame(height: 200)
+
+            GraphCapsule(index: 0, height: 200, range: 10..<50, overallRange: 0..<100)
+                .frame(width: 50.0, height: 200)
+        }
+        .edgesIgnoringSafeArea(.top)
     }
 }
