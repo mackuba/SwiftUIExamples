@@ -17,7 +17,7 @@ struct PageView<Page: View>: View {
     }
 
     var body: some View {
-        VStack {
+        ZStack(alignment: .bottomTrailing) {
             /*Button(action: {
                 self.currentPage = (self.currentPage + 1) % self.viewControllers.count
             }) {
@@ -26,7 +26,8 @@ struct PageView<Page: View>: View {
 
             PageViewController(controllers: viewControllers, currentPage: $currentPage)
 
-            Text("Current page: \(currentPage)")
+            PageControl(numberOfPages: viewControllers.count, currentPage: $currentPage)
+                .padding(.trailing)
         }
     }
 }

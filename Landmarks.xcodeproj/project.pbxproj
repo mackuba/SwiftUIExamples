@@ -56,6 +56,7 @@
 		8CD297EE24E1961900FBDCBB /* stmarylake_feature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CD297EB24E1961900FBDCBB /* stmarylake_feature.jpg */; };
 		8CD297EF24E1961900FBDCBB /* turtlerock_feature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CD297EC24E1961900FBDCBB /* turtlerock_feature.jpg */; };
 		8CD297F024E1961900FBDCBB /* charleyrivers_feature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CD297ED24E1961900FBDCBB /* charleyrivers_feature.jpg */; };
+		8CD297F224E1AFE800FBDCBB /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD297F124E1AFE800FBDCBB /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -110,6 +111,7 @@
 		8CD297EB24E1961900FBDCBB /* stmarylake_feature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stmarylake_feature.jpg; sourceTree = "<group>"; };
 		8CD297EC24E1961900FBDCBB /* turtlerock_feature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = turtlerock_feature.jpg; sourceTree = "<group>"; };
 		8CD297ED24E1961900FBDCBB /* charleyrivers_feature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charleyrivers_feature.jpg; sourceTree = "<group>"; };
+		8CD297F124E1AFE800FBDCBB /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +186,7 @@
 				8C6593CE24D08BCA003EC3DC /* LandmarkList.swift */,
 				8C6593B324D08173003EC3DC /* LandmarkRow.swift */,
 				8C6593A824D07602003EC3DC /* MapView.swift */,
+				8CD297F124E1AFE800FBDCBB /* PageControl.swift */,
 				8CD297E724E1882500FBDCBB /* PageView.swift */,
 				8CD297E524E1871900FBDCBB /* PageViewController.swift */,
 				8C2D231124DF098900EB2C38 /* ProfileHost.swift */,
@@ -350,6 +353,7 @@
 				8C504CDF24D37BEC00E0AC9F /* UserData.swift in Sources */,
 				8CAD54A024D4CB43003142FD /* HikeView.swift in Sources */,
 				8CAD54AC24D4CC67003142FD /* Data.swift in Sources */,
+				8CD297F224E1AFE800FBDCBB /* PageControl.swift in Sources */,
 				8CAD54A824D4CC2C003142FD /* GraphCapsule.swift in Sources */,
 				8C65939724D06582003EC3DC /* LandmarkDetail.swift in Sources */,
 				8C2D231224DF098900EB2C38 /* ProfileHost.swift in Sources */,
