@@ -237,15 +237,15 @@
 		8C2A37BE24E3492B004BF4EB /* WatchLandmarks Extension */ = {
 			isa = PBXGroup;
 			children = (
+				8C2A37C924E3492C004BF4EB /* Assets.xcassets */,
 				8C2A37BF24E3492B004BF4EB /* ContentView.swift */,
-				8C2A37C124E3492B004BF4EB /* HostingController.swift */,
 				8C2A37C324E3492B004BF4EB /* ExtensionDelegate.swift */,
+				8C2A37C124E3492B004BF4EB /* HostingController.swift */,
+				8C2A37CE24E3492C004BF4EB /* Info.plist */,
 				8C2A37C524E3492B004BF4EB /* NotificationController.swift */,
 				8C2A37C724E3492B004BF4EB /* NotificationView.swift */,
-				8C2A37C924E3492C004BF4EB /* Assets.xcassets */,
-				8C2A37CE24E3492C004BF4EB /* Info.plist */,
-				8C2A37CF24E3492C004BF4EB /* PushNotificationPayload.apns */,
 				8C2A37CB24E3492C004BF4EB /* Preview Content */,
+				8C2A37CF24E3492C004BF4EB /* PushNotificationPayload.apns */,
 			);
 			path = "WatchLandmarks Extension";
 			sourceTree = "<group>";
