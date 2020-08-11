@@ -39,9 +39,16 @@ struct WatchLandmarkDetail: View {
                     .font(.caption)
                     .bold()
                     .lineLimit(1)
+                    .minimumScaleFactor(0.9)
 
                 Text(landmark.state)
                     .font(.caption)
+
+                Divider()
+
+                WatchMapView(landmark: landmark)
+                .scaledToFit()
+                .padding()
             }
         }
         .navigationBarTitle("Landmarks")
@@ -54,7 +61,7 @@ struct WatchLandmarkDetail_Previews: PreviewProvider {
 
         return Group {
             WatchLandmarkDetail(landmark: userData.landmarks[0])
-                .previewLayout(.sizeThatFits)
+                .previewLayout(.fixed(width: 162, height: 440))
 
             WatchLandmarkDetail(landmark: userData.landmarks[0])
                 .previewDevice("Apple Watch Series 3 - 42mm")
