@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8C2A37B224E3492A004BF4EB /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C2A37B024E3492A004BF4EB /* Interface.storyboard */; };
-		8C2A37B424E3492B004BF4EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C2A37B324E3492B004BF4EB /* Assets.xcassets */; };
 		8C2A37BB24E3492B004BF4EB /* WatchLandmarks Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8C2A37BA24E3492B004BF4EB /* WatchLandmarks Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		8C2A37C024E3492B004BF4EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2A37BF24E3492B004BF4EB /* ContentView.swift */; };
 		8C2A37C224E3492B004BF4EB /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2A37C124E3492B004BF4EB /* HostingController.swift */; };
@@ -478,7 +477,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C2A37B424E3492B004BF4EB /* Assets.xcassets in Resources */,
 				8C2A37E324E34A16004BF4EB /* Assets.xcassets in Resources */,
 				8C2A37B224E3492A004BF4EB /* Interface.storyboard in Resources */,
 			);
