@@ -42,6 +42,7 @@
 		8C2A37F224E34A49004BF4EB /* umbagog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C6593BE24D08327003EC3DC /* umbagog.jpg */; };
 		8C2A37F324E34A51004BF4EB /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 8CAD54A924D4CC47003142FD /* hikeData.json */; };
 		8C2A37F424E34A51004BF4EB /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C6593B124D07F81003EC3DC /* landmarkData.json */; };
+		8C2A37F624E34ACF004BF4EB /* WatchLandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2A37F524E34ACF004BF4EB /* WatchLandmarkDetail.swift */; };
 		8C2D231224DF098900EB2C38 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2D231124DF098900EB2C38 /* ProfileHost.swift */; };
 		8C2D231424DF09C700EB2C38 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2D231324DF09C700EB2C38 /* Profile.swift */; };
 		8C2D231624DF0B6900EB2C38 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2D231524DF0B6900EB2C38 /* ProfileSummary.swift */; };
@@ -151,6 +152,7 @@
 		8C2A37CC24E3492C004BF4EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8C2A37CE24E3492C004BF4EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C2A37CF24E3492C004BF4EB /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		8C2A37F524E34ACF004BF4EB /* WatchLandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchLandmarkDetail.swift; sourceTree = "<group>"; };
 		8C2D231124DF098900EB2C38 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		8C2D231324DF09C700EB2C38 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		8C2D231524DF0B6900EB2C38 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
@@ -245,6 +247,7 @@
 				8C2A37C724E3492B004BF4EB /* NotificationView.swift */,
 				8C2A37CB24E3492C004BF4EB /* Preview Content */,
 				8C2A37CF24E3492C004BF4EB /* PushNotificationPayload.apns */,
+				8C2A37F524E34ACF004BF4EB /* WatchLandmarkDetail.swift */,
 			);
 			path = "WatchLandmarks Extension";
 			sourceTree = "<group>";
@@ -551,6 +554,7 @@
 				8C2A37C624E3492B004BF4EB /* NotificationController.swift in Sources */,
 				8C2A37C424E3492B004BF4EB /* ExtensionDelegate.swift in Sources */,
 				8C2A37DE24E349FB004BF4EB /* Profile.swift in Sources */,
+				8C2A37F624E34ACF004BF4EB /* WatchLandmarkDetail.swift in Sources */,
 				8C2A37E024E349FB004BF4EB /* CircleImage.swift in Sources */,
 				8C2A37DF24E349FB004BF4EB /* UserData.swift in Sources */,
 				8C2A37C824E3492B004BF4EB /* NotificationView.swift in Sources */,
