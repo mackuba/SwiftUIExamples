@@ -8,8 +8,10 @@
 
 import SwiftUI
 
-struct LandmarkList: View {
+struct LandmarkList<DetailView: View>: View {
     @EnvironmentObject var userData: UserData
+
+    let detailViewProducer: (Landmark) -> DetailView
 
     var body: some View {
         List {
@@ -18,7 +20,7 @@ struct LandmarkList: View {
             }
             ForEach(userData.landmarks) { landmark in
                 if landmark.isFavorite || !self.userData.showFavoritesOnly {
-                    NavigationLink(destination: LandmarkDetail(landmark: landmark)) {
+                    NavigationLink(destination: self.detailViewProducer(landmark)) {
                         LandmarkRow(landmark: landmark)
                     }
                 }
@@ -33,14 +35,14 @@ struct LandmarkList_Previews: PreviewProvider {
         Group {
             ForEach(["iPhone SE (1st generation)", "iPhone 11 Pro Max"], id: \.self) { deviceName in
                 NavigationView {
-                    LandmarkList()
+                    LandmarkList() { LandmarkDetail(landmark: $0) }
                 }
                 .previewDevice(PreviewDevice(rawValue: deviceName))
                 .previewDisplayName(deviceName)
             }
 
             NavigationView {
-                LandmarkList()
+                LandmarkList() { LandmarkDetail(landmark: $0) }
             }
             .previewDevice(PreviewDevice(rawValue: "iPhone 8"))
             .previewDisplayName("iPhone 8 dark mode")
