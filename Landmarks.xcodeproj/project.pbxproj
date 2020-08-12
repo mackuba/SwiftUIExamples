@@ -36,6 +36,7 @@
 		8C1A4FEE24E486BC00BCBE04 /* twinlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C6593BA24D08327003EC3DC /* twinlake.jpg */; };
 		8C1A4FEF24E486BC00BCBE04 /* umbagog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C6593BE24D08327003EC3DC /* umbagog.jpg */; };
 		8C1A4FF124E4881700BCBE04 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1A4FF024E4881700BCBE04 /* LandmarkRow.swift */; };
+		8C1A4FF324E48ACF00BCBE04 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1A4FF224E48ACF00BCBE04 /* LandmarkList.swift */; };
 		8C2A37B224E3492A004BF4EB /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C2A37B024E3492A004BF4EB /* Interface.storyboard */; };
 		8C2A37BB24E3492B004BF4EB /* WatchLandmarks Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8C2A37BA24E3492B004BF4EB /* WatchLandmarks Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		8C2A37C024E3492B004BF4EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2A37BF24E3492B004BF4EB /* ContentView.swift */; };
@@ -177,6 +178,7 @@
 		8C1A4FD524E4728C00BCBE04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C1A4FD624E4728C00BCBE04 /* MacLandmarks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacLandmarks.entitlements; sourceTree = "<group>"; };
 		8C1A4FF024E4881700BCBE04 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		8C1A4FF224E48ACF00BCBE04 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		8C2A37AE24E3492A004BF4EB /* WatchLandmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchLandmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C2A37B124E3492A004BF4EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		8C2A37B324E3492B004BF4EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -280,6 +282,7 @@
 				8C1A4FCB24E4728A00BCBE04 /* ContentView.swift */,
 				8C1A4FD524E4728C00BCBE04 /* Info.plist */,
 				8C1A4FF024E4881700BCBE04 /* LandmarkRow.swift */,
+				8C1A4FF224E48ACF00BCBE04 /* LandmarkList.swift */,
 				8C1A4FD624E4728C00BCBE04 /* MacLandmarks.entitlements */,
 				8C1A4FD224E4728C00BCBE04 /* Main.storyboard */,
 				8C1A4FCF24E4728C00BCBE04 /* Preview Content */,
@@ -670,6 +673,7 @@
 				8C1A4FDD24E486B200BCBE04 /* Profile.swift in Sources */,
 				8C1A4FDE24E486B200BCBE04 /* UserData.swift in Sources */,
 				8C1A4FDA24E486B200BCBE04 /* Data.swift in Sources */,
+				8C1A4FF324E48ACF00BCBE04 /* LandmarkList.swift in Sources */,
 				8C1A4FDB24E486B200BCBE04 /* Hike.swift in Sources */,
 				8C1A4FCA24E4728A00BCBE04 /* AppDelegate.swift in Sources */,
 				8C1A4FF124E4881700BCBE04 /* LandmarkRow.swift in Sources */,
