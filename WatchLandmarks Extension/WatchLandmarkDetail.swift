@@ -35,7 +35,7 @@ struct WatchLandmarkDetail: View {
 
                 Divider()
 
-                Text(landmark.park)
+                Text(landmark.park.replacingOccurrences(of: "National Park", with: "NP"))
                     .font(.caption)
                     .bold()
                     .lineLimit(1)
