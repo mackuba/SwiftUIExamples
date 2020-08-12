@@ -8,6 +8,16 @@
 
 import SwiftUI
 
+extension View {
+    func setNavigationBarTitle(_ text: String) -> some View {
+        #if os(watchOS)
+        return self.navigationBarTitle(Text(text))
+        #else
+        return self.navigationBarTitle(Text(text), displayMode: .inline)
+        #endif
+    }
+}
+
 struct LandmarkList<DetailView: View>: View {
     @EnvironmentObject var userData: UserData
 
@@ -26,11 +36,12 @@ struct LandmarkList<DetailView: View>: View {
                 }
             }
         }
-        .navigationBarTitle(Text("Landmarks"), displayMode: .inline)
+        .setNavigationBarTitle("Landmarks")
     }
 }
 
 struct LandmarkList_Previews: PreviewProvider {
+    #if os(iOS)
     static var previews: some View {
         Group {
             ForEach(["iPhone SE (1st generation)", "iPhone 11 Pro Max"], id: \.self) { deviceName in
@@ -50,4 +61,10 @@ struct LandmarkList_Previews: PreviewProvider {
         }
         .environmentObject(UserData())
     }
+    #else
+    static var previews: some View {
+        LandmarkList() { WatchLandmarkDetail(landmark: $0) }
+            .environmentObject(UserData())
+    }
+    #endif
 }
