@@ -17,7 +17,7 @@ struct MapView {
     }
 
     func updateMapView(_ view: MKMapView, context: Context) {
-        let span = MKCoordinateSpan(latitudeDelta: 2.0, longitudeDelta: 2.0)
+        let span = MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
         let region = MKCoordinateRegion(center: coordinate, span: span)
 
         DispatchQueue.main.async {
