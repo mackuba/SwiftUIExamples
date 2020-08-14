@@ -20,7 +20,9 @@ struct MapView {
         let span = MKCoordinateSpan(latitudeDelta: 2.0, longitudeDelta: 2.0)
         let region = MKCoordinateRegion(center: coordinate, span: span)
 
-        view.setRegion(region, animated: false)
+        DispatchQueue.main.async {
+            view.setRegion(region, animated: false)
+        }
     }
 }
 
